@@ -4,49 +4,163 @@
     <meta charset="utf-8">
     <title>熊大</title>
     <style>
-    	.bg_color{
-    		background-color:#0088A8;
-    		width:500px;
-    		height:500px;
-    		margin:auto;
-    		position:relative;
-    	}
-    	.face{
-    		background-color:#A0522D;
-    		width:375px;
-    		height:350px;
-    		border-radius:50%;
-    		margin-left:60px;
-    		margin-top:100px;
-    		position:absolute;
-    	}
-    	.lear{
-    		background-color:#A0522D;
-    		width:120px;
-    		height:120px;
-    		border-radius:50%;
-    		margin-left:70px;
-    		margin-top:65px;
-    		position:absolute;
-    	}
-    	.rear{
-    		background-color:#A0522D;
-    		width:120px;
-    		height:120px;
-    		border-radius:50%;
-    		margin-left:295px;
-    		margin-top:65px;
-    		position:absolute;
-    	}
+		.bg{
+			background-color:#94b8b8;
+			width:800px;
+			height:600px;
+			margin:auto;
+			position:relative;
+		}
+		.head{
+			background-color:#663300;
+			width:500px;
+			height:450px;
+			margin-top:120px;
+			margin-left:150px;
+			border:1px #663300 solid;
+			border-radius:50%;
+			position:absolute;
+		}
+		.ear_out{
+			background-color:#663300;
+			width:150px;
+			height:150px;
+			border:1px #663300 solid;
+			border-radius:50%;
+			position:absolute;
+		}
+		.ear_in{
+			background-color:#331a00;
+			width:120px;
+			height:120px;
+			top:0;
+			bottom:0;
+			left:0;
+			right:0;
+			margin:auto;
+			border:1px #331a00 solid;
+			border-radius:50%;
+			position:absolute;
+		}
+		.eye{
+			background-color:black;
+			width:50px;
+			height:50px;
+			border-radius:50%;
+			top:35%;
+			position:absolute;
+		}
+		.face{
+			background-color:#ffd9b3;
+			width:170px;
+			height:170px;
+			border-radius:50%;
+			left:0;
+			right:0;
+			bottom:50px;
+			margin:auto;
+			position:absolute;
+		}
+		.mb{
+			background-color:black;
+			width:130px;
+			height:80px;
+			border-radius:50%;
+			left:0; right:0;
+			bottom:40px;
+			margin:auto;
+			position:absolute;
+		}
+		.mf{
+			background-color:#ffd9b3;
+			width:130px;
+			height:80px;
+			left:0; right:0;
+			bottom:55px;
+			margin:auto;
+			position:absolute;
+		}
+		.nt{
+			background-color:black;
+			width:60px;
+			height:60px;
+			left:0; right:0;
+			top:20px;
+			margin:auto;
+			border-radius:50%;
+			position:absolute;
+		}
+		.nb{
+			background-color:#ffd9b3;
+			width:0px;
+			height:0px;
+			border-left:26px solid transparent;
+			border-right:26px solid transparent;
+			border-top:40px solid black;
+			left:0; right:0;
+			top:35px;
+			margin:auto;
+			position:absolute;
+		}
+		.str{
+			background-color:black;
+			width:15px;
+			height:70px;
+			left:0; right:0;
+			bottom:50px;
+			margin:auto;
+			position:absolute;
+		}
+		.de_left{
+			background-color:#ffd9b3;
+			width:10px;
+			height:30px;
+			left:30px;
+			bottom:50px;
+			position:absolute;
+		}
+		.de_r{
+			background-color:#ffd9b3;
+			background-color:#ffd9b3;
+			width:10px;
+			height:30px;
+			right:30px;
+			bottom:50px;
+			position:absolute;
+		}
     </style>
 </head>
 <body>
-	<div class="bg_color">
-		<div class="face">
+	<div class="bg">
+		<div class="ear_out" style="margin-top:90px;margin-left:170px">
+			<div class="ear_in">
+			</div>
 		</div>
-		<div class="lear">
+		<div class="ear_out" style="margin-top:90px;margin-left:480px">
+			<div class="ear_in">
+			</div>
 		</div>
-		<div class="rear">
+		<div class="head">
+			<div class="eye" style="left:33%">
+			</div>
+			<div class="eye" style="right:33%">
+			</div>
+			<div class="face">
+				<div class="mb">
+				</div>
+				<div class="nt">
+				</div>
+				<div class="mf">
+				</div>
+				<div class="nb">
+				</div>
+				<div class="str">
+				</div>
+				<div class="de_left">
+				</div>
+				<div class="de_r">
+				</div>
+			</div>
 		</div>
 	</div>
 </body>
